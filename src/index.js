@@ -1,9 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import styles from './index.scss';
+// Dependencies
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const Index = () => {
-  return <div className={styles.some}>Hello React!2</div>;
-};
+// Components
+import App from './components/App';
 
-ReactDOM.render(<Index />, document.getElementById("index"));
+ReactDOM.render(<App />, document.querySelector('#root'));
